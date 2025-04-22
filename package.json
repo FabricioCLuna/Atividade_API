@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "name": "desafio-cpi-acc",
+  "name": "atividade-api-acc",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {

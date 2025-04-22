@@ -4,9 +4,9 @@ const baseURLAc = 'https://demoqa.com/Account/v1';
 const baseURLBo = 'https://demoqa.com/BookStore/v1';
 //gerar números randomicos com 4 dígitos
 const random = String(Math.floor(Math.random() * 10000)).padStart(4, '0');
-let userID; // variável que guardará o userId
-let username; //variável que guardará o nome de usuário usado na criação de usuário
-let token; //variável para guardar o token gerado no Generate Token
+let userID; // variável para manter o ID do usuário logado
+let username; //variável para manter o nome do usuário logado na criação da conta
+let token; //variável para manter o token de autenticação gerado quando autenticar o usuário
 
 describe('Teste de Criar usuário randômico', () => {
   it('deve criar um usuário com nome e password', async () => {
