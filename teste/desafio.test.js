@@ -8,7 +8,7 @@ let userID; // variável que guardará o userId
 let username; //variável que guardará o nome de usuário usado na criação de usuário
 let token; //variável para guardar o token gerado no Generate Token
 
-describe('Teste de Criar usuário', () => {
+describe('Teste de Criar usuário randômico', () => {
   it('deve criar um usuário com nome e password', async () => {
     const resposta = await request(baseURLAc)
       .post('/User')
